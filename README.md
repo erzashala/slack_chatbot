@@ -22,12 +22,13 @@ This Slack bot integrates with the BambooHR API to provide real-time information
     ```
 
 3. **Set up environment variables**:
+   Add your BAMBOOHR_API_BASE_URL!
    Create a `.env` file in the project root and add your BambooHR API key:
     ```plaintext
     BAMBOOHR_API_KEY=your_bamboohr_api_key
     ```
 
-4. **Run the server**:
+5. **Run the server**:
     ```bash
     node index.js
     ```
